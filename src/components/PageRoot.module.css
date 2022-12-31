@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+.main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    max-width: 960px;
+
+    padding: 1rem 0 1rem 0;
+
+    gap: 2rem;
+
+    line-height: 1.4;
+}
+
+@media only screen and (max-width: 960px) {
+    .main {
+        padding: 0.5rem;
+    }
+}
