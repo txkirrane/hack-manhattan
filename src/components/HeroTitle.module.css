@@ -1,0 +1,13 @@
+.heroTitle {
+    font-size: 65px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .heroTitle {
+        font-size: 30px;
+    }
+}

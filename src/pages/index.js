@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import PageRoot from '../components/PageRoot'
+import HeroTitle from '../components/HeroTitle'
 
 import ImageCard from '../components/ImageCard'
 
@@ -8,12 +9,6 @@ import { cardImage } from "../components/ImageCard.module.css"
 
 const HeroImage = {
   width: "100%"
-}
-
-const HeroTitle = {
-  fontSize: "65px",
-  textAlign: "center",
-  fontWeight: 300
 }
 
 const Index = () => {
@@ -24,7 +19,7 @@ const Index = () => {
         style={HeroImage}
         src="../images/hero_hm.jpg"
       />
-      <h1 style={HeroTitle}>Manhattan's public hackerspace</h1>
+      <HeroTitle text="Manhattan's public hackerspace" />
       <div>
         <ImageCard
           image={<StaticImage className={cardImage} src='../images/hm1.jpg' alt='' />}
