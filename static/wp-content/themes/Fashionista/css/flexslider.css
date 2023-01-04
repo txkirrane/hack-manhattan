@@ -1,0 +1,20 @@
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {outline: none;}
+.slides, .flex-control-nav, .flex-direction-nav {margin: 0;padding: 0;list-style: none;}
+.flexslider {margin: 0;padding: 0;}
+.flexslider .slides > li {display: none;-webkit-backface-visibility: hidden;}
+.flexslider .slides img {width: 100%;display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {position: relative;zoom: 1;}
+.flexslider img {display: block;}
+.flex-direction-nav {}
+.flex-direction-nav a {width: 30px;height: 30px;margin: -20px 0 0;display: block;background: url("../images/bg_direction_nav.png") no-repeat 0 0;position: absolute;top: 50%;cursor: pointer;text-indent: -9999px;opacity: .8;-webkit-transition: all .3s ease;}
+.flex-direction-nav .flex-next {background-position: 100% 0;right: 12px;}
+.flex-direction-nav .flex-prev {left: 12px;}
+.flexslider:hover .flex-next {opacity: .8;}
+.flexslider:hover .flex-prev {opacity: .8;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
+.flex-direction-nav .flex-disabled {opacity: .3 !important;filter: alpha(opacity=30);cursor: default;}
