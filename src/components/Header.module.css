@@ -27,6 +27,7 @@ h1 {
 @media only screen and (max-width: 960px) {
     header {
         flex-direction: column;
+        padding: 1rem;
     }
     .headerLogo {
         width: 100%;

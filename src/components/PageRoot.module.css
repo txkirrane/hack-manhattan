@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
     margin: 0;
+    padding: 0;
 }
+
 .main {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -30,7 +32,4 @@ p {
 }
 
 @media only screen and (max-width: 960px) {
-    .main {
-        padding: 0.5rem;
-    }
 }
